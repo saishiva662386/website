@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venkateswara Cement Works - Leading Cement Manufacturer">
+    <title>Venkateswara Cement Works</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navbar Styling */
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Home Section Styling */
+        #home {
+            background-color: #007b5e;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        #home h1 {
+            font-size: 36px;
+        }
+
+        #home p {
+            font-size: 18px;
+        }
+
+        /* Products Section Styling */
+        #products {
+            padding: 40px 20px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        #products h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* Product Grid Layout */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+            gap: 20px;
+            padding: 0 10px;
+        }
+
+        .image-item {
+            text-align: center;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .image-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-item img {
+            width: 100%;
+            height: 200px; /* Fixed height to maintain uniformity */
+            object-fit: cover; /* Ensures images fill the space */
+        }
+
+        .image-item p {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #fff;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        /* About Us Section Styling */
+        #aboutus {
+            padding: 40px 20px;
+            background-color: white;
+            color: #333;
+        }
+
+        #aboutus h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        #aboutus p {
+            text-align: justify;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Contact Us Section Styling */
+        #contactus {
+            padding: 40px 20px;
+            background-color: #e9ecef;
+        }
+
+        #contactus h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        #contactus address {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        #contactus a {
+            color: #007b5e;
+            text-decoration: none;
+        }
+
+        #contactus a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer-whatsapp {
+            margin-top: 10px;
+        }
+
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="./phoptos/DALL·E 2024-11-13 12.39.50 - A logo design for 'Venkateshwara Cement Works' featuring a cement bench and a cement pole in the background. The logo should incorporate elements of s.webp" alt="Venkateswara Cement Works">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <header>
+            <h1>Welcome to Venkateswara Cement Works</h1>
+            <p>Your Trusted Partner in Quality Cement Manufacturing</p>
+        </header>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <header>
+            <h2>Our Products</h2>
+        </header>
+        <div class="gallery">
+            <div class="image-item">
+                <img src="./phoptos/images.jpg" alt="Cement Vibrating Poles">
+                <p>Cement Vibrating Poles</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/IMG_20240418_170522.jpg" alt="Cement Vibrating Poles">
+                <p>Cement Vibrating Poles</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/sathe-cement-vastu-nirmiti-concrete-pole-21-02-2023-22-272371681-mnjwkw0e.avif" alt="Cement Vibrating Poles">
+                <p>Cement Vibrating Poles</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/product-jpeg-500x500.webp" alt="Cement Vibrating Poles">
+                <p>Cement Vibrating Poles</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/product-jpeg-500x500 (1).webp" alt="Cement Benches">
+                <p>Cement Benches</p>
+            </div>
+            <div class="image-item">
+                <img src="cement-flower-pot.jpg" alt="Cement Flower Pots">
+                <p>Cement Flower Pots</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/door.avif" alt="Cement Doorway">
+                <p>Cement Doorway</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/images (1).jpg" alt="Cement Windows">
+                <p>Cement Windows</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/1646379844_concrete-window-frame-Thaliparamba.webp" alt="Cement Windows">
+                <p>Cement Windows</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/product-jpeg (1).jpg" alt="Cement Ventilators">
+                <p>Cement Ventilators</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/product-jpeg.jpg" alt="Cement Ventilators">
+                <p>Cement Ventilators</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/sri-velmurugan-cement-works-madurantakam-kanchipuram-sand-dealers-o2rcdyd-250.jpeg" alt="Cement Rings for Water Storage">
+                <p>Cement Rings for Water Storage</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/concrete-well-ring-250x250.webp" alt="Cement Rings for Water Storage">
+                <p>Cement Rings for Water Storage</p>
+            </div>
+            <div class="image-item">
+                <img src="./phoptos/5ft-rcc-ring-500x500.webp" alt="Cement Rings for Water Storage">
+                <p>Cement Rings for Water Storage</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="aboutus">
+        <header>
+            <h2>About Us</h2>
+        </header>
+        <p>
+            Venkateswara Cement Works has been a pioneer in the cement manufacturing industry for over 25 years. With a commitment to quality and innovation, we have become one of the leading cement manufacturers in the region. Our product range is designed to meet a variety of needs for both residential and commercial projects.
+            
+            We proudly manufacture and offer a wide selection of cement-based products, including:
+            <br>
+            <strong> Cement Benches</strong>– Durable benches for parks, gardens, and public spaces.
+            <br>
+          <strong>Cement Doors and Windows</strong>  – Strong, weather-resistant frames for various architectural styles.
+            <br>
+            <strong> Ventilators </strong>– Quality ventilators to ensure proper airflow in buildings.
+            <br>
+            <strong> Vibrating Poles</strong>– Reinforced poles suitable for structural applications.
+            <br>
+           <strong>Cement Rings</strong>  – Reliable rings for water storage and septic tank use.
+            <br>
+            <strong>Flower Pots*</strong>  – Stylish cement flower pots ideal for indoor and outdoor use.
+            <br>
+            <strong>Decorative Items</strong>  – Intricately designed gods' images, flower décor, and other ornamental cement items for home decoration.
+            
+           </p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contactus">
+        <header>
+            <h2>Contact Us</h2>
+        </header>
+        <p>If you have any questions or need more information, feel free to reach out to us!</p>
+        <address>
+            <strong>Venkateswara Cement Works</strong><br>
+            Mallaram road, Opposite Water Servicing Center<br>
+            Vemulawada, Telangana, 505302<br>
+            <a href="mailto:porandlasrikanth7@gmail.com">porandlasrikanth7@gmail.com</a><br>
+            <a href="tel:9032104716">9032104716</a>
+        </address>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Venkateswara Cement Works. All rights reserved.</p>
+        <div class="footer-whatsapp">
+            <a href="https://wa.me/9032104716" target="_blank" class="whatsapp-button">Chat on WhatsApp</a>
+        </div>
+    </footer>
+
+</body>
+</html>
